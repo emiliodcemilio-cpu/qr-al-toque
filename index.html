@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6d4aff">
+<title>QR al Toque — Generador de códigos QR gratis</title>
+<meta name="description" content="Creá códigos QR gratis en segundos. Pegá un enlace, personalizá los colores y descargá tu QR para compartirlo o imprimirlo.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://TU-SITIO.netlify.app/">
+<meta property="og:title" content="QR al Toque — Generador de códigos QR gratis">
+<meta property="og:description" content="Generá y descargá códigos QR gratis, fácil y rápido.">
+<meta property="og:type" content="website">
+<style>
+:root{color-scheme:light;--bg:#f6f5ff;--card:#fff;--text:#211d35;--muted:#69647b;--line:#e7e3f3;--primary:#6d4aff;--primary2:#5533e6;--soft:#eee9ff;--shadow:0 18px 55px rgba(49,32,112,.10)}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#12111b;--card:#1d1b2a;--text:#f4f1ff;--muted:#b5afca;--line:#383448;--primary:#a99aff;--primary2:#c1b7ff;--soft:#30294a;--shadow:0 18px 55px rgba(0,0,0,.22)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#ebe6ff 0,transparent 48%),var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);line-height:1.55}
+:root[data-theme="dark"] body{background:radial-gradient(ellipse at top,#292141 0,transparent 48%),var(--bg)}
+a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1060px,calc(100% - 32px));margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:850;font-size:1.22rem;letter-spacing:-.04em;color:var(--text)}.logo{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--primary);color:white;font-size:1.45rem;box-shadow:0 8px 22px #6d4aff45}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--text);padding:10px 14px;border-radius:12px;font-weight:700;cursor:pointer;font:inherit}.btn:hover{border-color:var(--primary)}.btn-primary{background:var(--primary);border-color:var(--primary);color:white}.btn-primary:hover{background:var(--primary2);color:white}.hero{text-align:center;padding:35px 0 28px}.pill{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--card);padding:6px 12px;border-radius:999px;color:var(--muted);font-size:.86rem;font-weight:700}.hero h1{font-size:clamp(2.15rem,6vw,4rem);line-height:1.05;letter-spacing:-.06em;margin:18px auto 14px;max-width:800px}.gradient{background:linear-gradient(100deg,#6d4aff,#d04bd8);background-clip:text;-webkit-background-clip:text;color:transparent}.hero p{color:var(--muted);font-size:1.08rem;max-width:640px;margin:0 auto}
+main{padding-bottom:45px}.app{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(270px,.85fr);gap:20px;align-items:start}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}.card h2{margin:0 0 5px;font-size:1.18rem;letter-spacing:-.025em}.sub{color:var(--muted);font-size:.92rem;margin:0 0 20px}.label{display:block;font-size:.91rem;font-weight:750;margin:15px 0 7px}input[type=url],input[type=text],textarea{width:100%;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:12px;padding:13px 14px;font:inherit;outline:none}input:focus,textarea:focus{border-color:var(--primary);box-shadow:0 0 0 3px #6d4aff22}.row{display:flex;gap:10px}.row>*{flex:1;min-width:0}.hint{color:var(--muted);font-size:.82rem;margin:7px 0 0}.error{color:#d63e54;font-size:.9rem;margin-top:8px;min-height:1.4em}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:17px}.controls .btn{flex:1}.colorbox{display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:7px 10px}.colorbox input{width:38px;height:34px;border:0;background:transparent;padding:0}.colorbox span{font-size:.88rem;color:var(--muted)}.result{display:flex;flex-direction:column;align-items:center;text-align:center}.qr-stage{width:100%;min-height:300px;display:grid;place-items:center;background:var(--bg);border:1px dashed var(--line);border-radius:18px;padding:18px;margin:12px 0 15px}.qr-placeholder{max-width:230px;color:var(--muted)}.qr-placeholder .symbol{font-size:4rem;display:block;opacity:.55}.qr-stage canvas,.qr-stage img{max-width:100%;height:auto!important;border-radius:4px}.result .controls{width:100%}.small{font-size:.83rem;color:var(--muted)}.ad-slot{margin:22px 0;border:1px dashed var(--line);border-radius:16px;min-height:90px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:.82rem;padding:12px}.content{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.info h3{margin:0 0 7px}.info p{color:var(--muted);margin:0;font-size:.94rem}.faq{margin-top:22px}.faq details{border-top:1px solid var(--line);padding:15px 0}.faq summary{font-weight:750;cursor:pointer}.faq details p{color:var(--muted);margin-bottom:0}.notice{background:var(--soft);border-radius:14px;padding:13px 15px;color:var(--muted);font-size:.88rem;margin-top:14px}
+footer{border-top:1px solid var(--line);padding:24px 0 35px;color:var(--muted);font-size:.9rem}footer .foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer nav{display:flex;gap:15px;flex-wrap:wrap}.cookie{position:fixed;bottom:14px;left:14px;right:14px;max-width:720px;margin:auto;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);padding:16px;border-radius:18px;display:none;align-items:center;gap:14px;z-index:10}.cookie p{margin:0;color:var(--muted);font-size:.9rem;flex:1}.cookie .btn{white-space:nowrap}
+@media(max-width:760px){.app{grid-template-columns:1fr}.content{grid-template-columns:1fr}.hero{padding-top:22px}.card{padding:19px}.qr-stage{min-height:260px}.cookie{align-items:flex-start;flex-wrap:wrap}.cookie p{flex-basis:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a class="brand" href="./"><span class="logo">▦</span><span>QR al Toque</span></a><button class="btn" id="themeBtn" type="button" aria-label="Cambiar tema">🌙 Tema</button></header>
+<section class="hero"><span class="pill">✦ Gratis · Fácil · En segundos</span><h1>Tu enlace, convertido en <span class="gradient">código QR</span></h1><p>Pegá un link, personalizá tu QR y descargalo para compartirlo, imprimirlo o usarlo en tu emprendimiento.</p></section>
+<main>
+<section class="app" aria-label="Generador de códigos QR">
+<div class="card">
+<h2>✨ Creá tu código QR</h2><p class="sub">No necesitás registrarte. El código se genera en tu navegador.</p>
+<label class="label" for="urlInput">Pegá tu enlace</label>
+<input id="urlInput" type="text" inputmode="url" autocomplete="url" placeholder="ejemplo.com o https://tuweb.com" maxlength="2000">
+<p class="hint">Si te olvidás de escribir https://, intentamos agregarlo automáticamente.</p>
+<div id="error" class="error" role="status" aria-live="polite"></div>
+<div class="row">
+<div><label class="label" for="qrColor">Color del QR</label><div class="colorbox"><input id="qrColor" type="color" value="#211d35"><span id="qrColorText">#211D35</span></div></div>
+<div><label class="label" for="bgColor">Color de fondo</label><div class="colorbox"><input id="bgColor" type="color" value="#ffffff"><span id="bgColorText">#FFFFFF</span></div></div>
+</div>
+<div class="row"><div><label class="label" for="size">Tamaño</label><select id="size" class="btn" style="width:100%"><option value="200">Pequeño (200 px)</option><option value="300" selected>Mediano (300 px)</option><option value="500">Grande (500 px)</option><option value="800">Extra grande (800 px)</option></select></div><div><label class="label" for="format">Formato</label><select id="format" class="btn" style="width:100%"><option value="png">PNG</option><option value="svg">SVG</option></select></div></div>
+<div class="controls"><button class="btn btn-primary" id="generateBtn" type="button">Generar código QR</button><button class="btn" id="clearBtn" type="button">Limpiar</button></div>
+<div class="notice">🔒 Tu enlace se procesa en este navegador. No lo enviamos a un servidor de QR.</div>
+</div>
+<div class="card result"><h2>Tu QR aparece acá</h2><p class="sub">Escanealo con la cámara de tu celular para probarlo.</p><div class="qr-stage" id="qrStage"><div class="qr-placeholder"><span class="symbol">▦</span>Tu código QR aparecerá acá cuando generes uno.</div></div><p class="small" id="resultText">Todavía no generaste ningún QR.</p><div class="controls"><button class="btn btn-primary" id="downloadBtn" disabled type="button">⬇ Descargar QR</button><button class="btn" id="shareBtn" disabled type="button">Compartir</button></div></div>
+</section>
+<div class="ad-slot" aria-label="Espacio reservado para publicidad">Espacio reservado para publicidad (opcional, cuando el sitio cumpla los requisitos y sea aprobado).</div>
+<section class="content" aria-label="Información sobre códigos QR">
+<article class="card info"><h3>¿Qué es un código QR?</h3><p>Es una imagen que puede guardar información, como un enlace a una página web. Al escanearla con un celular compatible, la persona puede abrir ese enlace rápidamente.</p></article>
+<article class="card info"><h3>¿Para qué sirve?</h3><p>Podés usar un QR para compartir una tienda online, un menú, tus redes sociales, un video, un formulario o cualquier enlace público.</p></article>
+<article class="card info"><h3>¿Cómo se usa?</h3><p>Pegá un enlace válido, elegí los colores y el tamaño, generá el código y descargalo. Antes de imprimirlo, probalo con otro celular y asegurate de que se escanee bien.</p></article>
+</section>
+<section class="card faq"><h2>Preguntas frecuentes</h2>
+<details><summary>¿QR al Toque es gratis?</summary><p>Sí. Podés generar y descargar códigos QR sin registrarte. El alojamiento del sitio puede tener límites propios, pero usar este generador no requiere una cuenta.</p></details>
+<details><summary>¿Tengo que instalar una aplicación?</summary><p>No. Podés usar el generador desde un navegador moderno en tu celular o computadora.</p></details>
+<details><summary>¿El código QR vence?</summary><p>Un QR estático como el que genera esta página no tiene una fecha de vencimiento incorporada. Si el enlace deja de funcionar, el QR seguirá apuntando a ese mismo enlace.</p></details>
+<details><summary>¿Puedo cambiar el destino después?</summary><p>No desde el QR ya descargado. Para cambiar el destino, generá otro código con el nuevo enlace.</p></details>
+<details><summary>¿Qué enlaces puedo usar?</summary><p>Usá enlaces públicos que empiecen con http:// o https://. No compartas enlaces privados ni información sensible en un QR público.</p></details>
+</section>
+<div class="ad-slot" aria-label="Espacio reservado para publicidad">Espacio reservado para publicidad</div>
+</main>
+<footer><div class="foot"><span>© <span id="year"></span> QR al Toque · Hecho para que sea simple.</span><nav><a href="privacidad.html">Privacidad</a><a href="contacto.html">Contacto</a><a href="#cookies" id="cookieSettings">Cookies</a></nav></div></footer>
+</div>
+<div class="cookie" id="cookieBanner"><p>Usamos almacenamiento local para recordar tu tema y tu preferencia sobre este aviso. Si en el futuro agregás publicidad, actualizá esta información y el consentimiento según corresponda.</p><button class="btn btn-primary" id="acceptCookies" type="button">Entendido</button></div>
+<!-- Librería de generación QR. Requiere conexión a internet para cargar desde CDN. Si querés que funcione totalmente sin conexión, habrá que incluir la librería en este archivo. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function(){
+const $=id=>document.getElementById(id);let currentUrl='',qrInstance=null;
+const root=document.documentElement;
+function setTheme(theme){root.dataset.theme=theme;localStorage.setItem('qr-theme',theme);$('themeBtn').textContent=theme==='dark'?'☀️ Tema':'🌙 Tema'}
+const saved=localStorage.getItem('qr-theme');setTheme(saved|| (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+$('themeBtn').addEventListener('click',()=>setTheme(root.dataset.theme==='dark'?'light':'dark'));
+$('year').textContent=new Date().getFullYear();
+function updateColors(){ $('qrColorText').textContent=$('qrColor').value.toUpperCase();$('bgColorText').textContent=$('bgColor').value.toUpperCase(); if(currentUrl) generate(); }
+$('qrColor').addEventListener('input',updateColors);$('bgColor').addEventListener('input',updateColors);
+function normalize(raw){let s=raw.trim();if(!s)return {error:'Pegá un enlace para empezar.'};if(!/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(s))s='https://'+s;let u;try{u=new URL(s)}catch(e){return {error:'Ese enlace no parece válido. Revisá que esté bien escrito.'}}if(!['http:','https:'].includes(u.protocol)||!u.hostname||!u.hostname.includes('.'))return {error:'Usá un enlace web válido que tenga un dominio, como ejemplo.com.'};if(/\s/.test(raw.trim()))return {error:'El enlace tiene espacios. Revisalo o copiá la dirección completa.'};return {url:u.href}}
+function generate(){const checked=normalize($('urlInput').value);$('error').textContent='';if(checked.error){$('error').textContent=checked.error;return}if(typeof QRCode==='undefined'){$('error').textContent='No se pudo cargar el generador. Revisá tu conexión e intentá de nuevo.';return}currentUrl=checked.url;const size=Number($('size').value);const stage=$('qrStage');stage.innerHTML='';const holder=document.createElement('div');holder.id='qrHolder';stage.appendChild(holder);qrInstance=new QRCode(holder,{text:currentUrl,width:size,height:size,colorDark:$('qrColor').value,colorLight:$('bgColor').value,correctLevel:QRCode.CorrectLevel.H});setTimeout(()=>{const img=holder.querySelector('img');const canvas=holder.querySelector('canvas');if(img||canvas){$('downloadBtn').disabled=false;$('shareBtn').disabled=false;$('resultText').textContent='QR listo · '+currentUrl; }else{$('error').textContent='No se pudo crear el QR. Probá con un enlace más corto.'}},120)}
+$('generateBtn').addEventListener('click',generate);
+$('urlInput').addEventListener('keydown',e=>{if(e.key==='Enter')generate()});
+$('clearBtn').addEventListener('click',()=>{$('urlInput').value='';$('error').textContent='';currentUrl='';qrInstance=null;$('qrStage').innerHTML='<div class="qr-placeholder"><span class="symbol">▦</span>Tu código QR aparecerá acá cuando generes uno.</div>';$('resultText').textContent='Todavía no generaste ningún QR.';$('downloadBtn').disabled=true;$('shareBtn').disabled=true});
+$('size').addEventListener('change',()=>{if(currentUrl)generate()});
+$('downloadBtn').addEventListener('click',()=>{const holder=$('qrHolder');if(!holder)return;const canvas=holder.querySelector('canvas');const img=holder.querySelector('img');let data;if(canvas)data=canvas.toDataURL('image/png');else if(img)data=img.src;if(!data)return;const a=document.createElement('a');a.href=data;a.download='qr-al-toque.'+($('format').value==='svg'?'png':'png');a.click();if($('format').value==='svg')alert('Esta versión descarga PNG. La descarga SVG se agregará en una próxima mejora.');});
+$('shareBtn').addEventListener('click',async()=>{try{if(navigator.share)await navigator.share({title:'Mi código QR',text:'Escaneá este QR o abrí el enlace:',url:currentUrl});else if(navigator.clipboard){await navigator.clipboard.writeText(currentUrl);alert('Enlace copiado.');}else alert('Tu enlace es: '+currentUrl)}catch(e){}});
+const banner=$('cookieBanner');if(!localStorage.getItem('qr-cookie-notice'))banner.style.display='flex';$('acceptCookies').addEventListener('click',()=>{localStorage.setItem('qr-cookie-notice','yes');banner.style.display='none'});$('cookieSettings').addEventListener('click',e=>{e.preventDefault();banner.style.display='flex'}); 
+})();
+</script>
+</body></html>

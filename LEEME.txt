@@ -1,0 +1,25 @@
+# QR al Toque — versión nueva
+
+## Archivos
+- `index.html`: generador de QR y contenido principal.
+- `privacidad.html`: plantilla inicial de privacidad.
+- `contacto.html`: formulario preparado para Netlify Forms.
+- `gracias.html`: página de confirmación.
+
+## Cómo probarlo
+Abrí `index.html` en un navegador con internet. La librería QRCode.js se carga desde cdnjs, por lo que la generación necesita conexión a internet.
+
+## Cómo publicarlo en Netlify
+1. Descomprimí `qr-al-toque-nuevo.zip`.
+2. En Netlify, creá un sitio nuevo mediante despliegue manual y subí la carpeta que contiene estos archivos (o arrastrá los archivos según la interfaz disponible).
+3. Antes de publicar, reemplazá `https://TU-SITIO.netlify.app/` en `index.html` por la URL real del sitio.
+4. Si Netlify te indica que no podés hacer deploy por el límite del plan, no pagues automáticamente: esperá a que se reinicie el ciclo o elegí otro hosting estático gratuito.
+5. Después de publicar, probá en celular: generar, escanear y descargar un QR.
+
+## Importante
+- No hay anuncios activos. Los espacios publicitarios son solo marcadores; no pegues código de anuncios hasta que un adulto responsable gestione la cuenta y el sitio cumpla los requisitos del proveedor.
+- El selector de formato muestra PNG/SVG, pero en esta primera versión la descarga real es PNG. No anuncies SVG como función lista todavía.
+- La política de privacidad es una plantilla, no asesoramiento legal. Revisala y agregá un contacto válido antes de publicar.
+- No pongas datos personales en la página. Como sos menor, pedile a un adulto que supervise cuentas, pagos, privacidad y publicidad.
+- El sitio usa una librería externa de QR desde CDN. Si no carga, revisá la conexión.
+- Los cambios en esta copia no modifican ni reemplazan automáticamente tu página vieja.
